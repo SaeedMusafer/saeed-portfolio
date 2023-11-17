@@ -67,19 +67,19 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
               Since the beginning of my journey as a freelance designer and developer,
                I've done remote work for <span className='text-teal-500'> agencies</span> that developed projects for 
                <span className='text-teal-500'> startups </span>
                I have also collaborated with many designers and developers within my network in order to create digital products for both businesses
                and consumer use.
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
               I offer from a wide range of services, including brand design, 
               programming and teaching.
             </p>
           </div>
-          <div className='lg:flex gap-10'>
+          <div className='lg:flex gap-10 dark:text-gray-900'>
             <div className='text-center mx-auto shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
               <Image src={design} width={100} height={100} className='mx-auto' />
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
@@ -123,14 +123,14 @@ export default function Home() {
         <section>
           <div>
           <h3 className='text-3xl py-1'>Portfolio</h3>
-          <p className='text-md py-2 leading-8 text-gray-800'>
+          <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
               Since the beginning of my journey as a freelance designer and developer,
                I've done remote work for <span className='text-teal-500'> agencies</span> that developed projects for 
                <span className='text-teal-500'> startups </span>
                I have also collaborated with many designers and developers within my network in order to create digital products for both businesses
                and consumer use.
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-400'>
               I offer from a wide range of services, including brand design, 
               programming and teaching.
             </p>
@@ -138,22 +138,22 @@ export default function Home() {
 
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://roydad.af/"><div><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://www.arg.org.af/"><div><Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://contactgroup.af/"><div><Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://contactgroup.af/"><div><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://www.contactgroup.af"><div><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <div><Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
+              <a href="https://www.arg.org.af/"><div><Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div></a>
             </div>
           </div>
         </section>
