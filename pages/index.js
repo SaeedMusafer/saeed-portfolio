@@ -49,7 +49,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl '>Saeed Musafer</h2>
             <h3 className='text-2xl py-2 md:text-3xl'>Developer and designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400'>
               Freelancer providing services for programming and desing content
               needs. Join me down and let's get cracking!
             </p>
@@ -149,7 +149,7 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <div><Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
             </div>
-            <div>
+            <div className='basis-1/3 flex-1'>
               <div><Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/></div>
             </div>
             <div className='basis-1/3 flex-1'>
