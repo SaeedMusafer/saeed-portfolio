@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "<strong>HTTPS=true</strong> react-scripts next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
