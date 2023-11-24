@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "HTTPS=true SSL_CRT_FILE=../ssl/localhost.pem SSL_KEY_FILE=../ssl/localhost-key.pem react-scripts start next start",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
